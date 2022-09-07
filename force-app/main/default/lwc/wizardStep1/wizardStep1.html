@@ -1,0 +1,23 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 09-06-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-record-edit-form object-api-name="Lead" onsuccess={handleSuccess}>
+        <lightning-messages></lightning-messages>
+        <lightning-input-field field-name="FirstName"></lightning-input-field>
+        <lightning-input-field field-name="LastName"></lightning-input-field>
+        <lightning-input-field field-name="Company"></lightning-input-field>
+        <lightning-input-field field-name="Email"></lightning-input-field>
+        <lightning-input-field field-name="Phone"></lightning-input-field>
+        <lightning-input-field field-name="Address"></lightning-input-field>
+        <lightning-button
+            class="slds-var-m-top_small"
+            type="submit"
+            label="Next">
+        </lightning-button>
+    </lightning-record-edit-form>
+</template>

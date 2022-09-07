@@ -1,0 +1,6 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <aura:attribute name="text" type="String" default="Don't see what you're looking for?" access="global" />
+    <div class="grid">
+        <span>{!v.text}</span>
+    </div>
+</aura:component>
